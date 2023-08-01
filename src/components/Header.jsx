@@ -2,6 +2,7 @@
 import useSticky from '@/hooks/use-sticky';
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const Header = () => {
 	const { sticky } = useSticky()
