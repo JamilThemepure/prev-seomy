@@ -12,13 +12,6 @@ import TestimonialArea from '@/components/TestimonialArea';
 import UsefulFeatureArea from '@/components/UsefulFeatureArea';
 import Wrapper from '@/components/Wrapper';
 
-export const metadata = {
-	title: "seomy prev - Digital Marketing & SEO Agency Next js Template",
-	icons: {
-		icon: "favicon.ico",
-	},
-};
-
 const MainHome = () => { 
 
 	return (
