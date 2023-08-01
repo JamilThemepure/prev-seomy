@@ -1,4 +1,4 @@
-
+'use client'
 
 import BackToTop from '@/utils/BackToTop';
 import { animationCreate } from '@/utils/utils';
