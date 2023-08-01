@@ -1,0 +1,90 @@
+
+@use '../utils' as *;
+
+.tp-custom-accordion {
+    min-height: 530px;
+    & .accordion-items {
+        border-bottom: 1px solid #EBECF0;
+        padding: 0 40px;
+        position: relative;
+        transition: .3s;
+        &.tp-faq-active{
+            box-shadow: 0px 20px 20px rgba(3, 4, 28, 0.08);
+            border-radius: 0 0 20px 20px;
+        }
+    }
+    & .accordion-buttons {
+        position: relative;
+        width: 100%;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 20px;
+        font-family: var(--tp-ff-mont);
+        text-align: left;
+        padding: 35px 0;
+        @media #{$xs}{
+            font-size: 14px;
+        }
+        & .accordion-btn{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            border: 1px solid #C0C2C8;
+            border-radius: 50%;
+            transition: .3s;
+            &::after{
+                position: absolute;
+                content: '';
+                width: 12px;
+                height: 2px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                background-color: #525258;
+                border-radius: 2px;
+            }
+            &::before{
+                position: absolute;
+                content: "";
+                width: 2px;
+                height: 12px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                background-color: #525258;
+                border-radius: 2px;
+                transition: .4s;
+            }
+        }
+        &:not(.collapsed){ 
+            padding-bottom: 22px;
+            & .accordion-btn{
+                border-color: var(--tp-common-black);
+                &::before{
+                    transform: translate(-50%,-50%) rotate(90deg);
+                }
+            }
+        }
+    }
+    & .accordion-body {
+        padding: 0px 0 40px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+        padding-right: 35px;
+        color: #5F6168;
+        @media #{$xs}{
+            font-size: 13px;
+            padding-right: 0;
+        }
+
+        & a{
+            color: #7b12e8;
+            font-weight: 500;
+        }
+    }
+}

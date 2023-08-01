@@ -1,0 +1,127 @@
+@use '../utils' as *;
+
+.integration{
+    &__mlr{
+        padding: 0px 78px;
+        @media #{$md,$xs}{ 
+            padding: 0;   
+        }
+    }
+    &__left-shape{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__item{
+        border: 1px solid rgba(0, 2, 41, 0.08);
+        border-radius: 14px;
+        padding: 35px 40px;
+        padding-left: 30px;
+    }
+    &__icon{
+        padding-bottom: 40px;
+        & img{
+            height: 56px;
+            width: 56px;
+        }
+    }
+    &__content{
+        & h4{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 16px; 
+            letter-spacing: -0.01em;
+            color: #000229;
+            padding-bottom: 10px;
+            @media #{$lg}{
+                font-size: 15px;
+            }
+            @media #{$sm}{
+                font-size: 17px;
+            }
+        }
+        & p{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color: #5F6168;
+            @media #{$lg}{
+                & br{
+                    display: none;
+                }
+            }
+            @media #{$sm}{
+                & br{
+                    display: none;
+                }
+            }
+        }
+    }
+    &__counter-count{
+        position: relative;
+        &::after{
+            position: absolute;
+            font-size: 14px;
+            content: "0" counter(count);
+            counter-increment: count;
+            color: #222;
+            font-weight: 400;
+        }
+    }
+    &__counter-wrap{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+}
+.integration-counter {
+	counter-reset: count;
+}
+
+.elementor{
+    &__bg{
+        background-color: var(--tp-common-pink);
+        padding: 125px 50px;
+        border-radius: 20px;
+        @media #{$xs}{    
+            padding: 80px 15px;
+            border-radius: 15px;
+        }
+    }
+    &__title-box{
+        padding-left: 20px;
+        & .tp-section-title-sm{
+            padding-bottom: 15px;
+            @media #{$sm}{    
+                & br {
+                    display: none;
+                }
+            }
+        }
+        & p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #3E3F48;
+            @media #{$xs}{    
+                font-size: 14px;
+            }
+        }
+    }
+    &__left-img{
+        @media #{$md,$xs}{    
+            margin-bottom: 70px;
+        }
+        & img {
+            @media #{$lg}{    
+                max-width: 100%;
+            }
+            @media #{$md,$xs}{    
+                width: 100%;
+            }
+        }
+    }
+    &__icon{
+        margin-bottom: 15px;
+    }
+}

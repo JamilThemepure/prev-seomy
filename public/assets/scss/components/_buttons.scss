@@ -1,0 +1,64 @@
+@use '../utils' as *;
+
+
+.tp-btn{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	color: var(--tp-common-white);
+	background: var(--tp-theme-1);
+	line-height: 36px;
+	text-align: center;
+	padding: 3px 20px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 6px;
+	& svg{
+		margin-left: 5px;
+	}
+	&:hover{
+		box-shadow: 0px 12px 12px rgba(66, 98, 255, 0.14);
+		transform: translateY(-2px);
+		color: var(--tp-common-white);
+	}
+}
+.tp-btn-white{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	color: var(--tp-common-black);
+	background: var(--tp-common-white);
+	line-height: 1;
+	text-align: center;
+	padding: 19px 36px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 6px;
+	transition: 0.3s;
+	&:hover{
+		color: var(--tp-common-white);	
+		background-color: var(--tp-common-black);
+	}
+}
+.tp-btn-border{
+	display: inline-block;
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--tp-common-white);
+	border: 1px solid rgba(255, 255, 255, 0.14) ;
+	height: 50px;
+	line-height: 46px;
+	text-align: center;
+	padding: 0 30px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+    border-radius: 100px;
+	&:hover{
+		color: var(--tp-common-white);	
+		background-color: var(--tp-common-black);
+		border-color: var(--tp-common-black);
+	}
+}

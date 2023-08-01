@@ -1,0 +1,97 @@
+@use '../utils' as *;
+
+/* section title css */
+
+.tp-banner-title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -0.02em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+    @include tp-gradient((291.09deg, #FF4F99 27.31%, #7F37FE 73.17%));
+    -moz-animation: sliderTitle3 2.5s ease-in-out 1s forwards infinite alternate;
+    -webkit-animation: sliderTitle3 2.5s ease-in-out 1s forwards infinite alternate;
+    animation: sliderTitle3 1s ease-in-out 2.5s forwards infinite alternate;
+    background-size: 150% 150%;
+    @media #{$lg} {
+        font-size: 60px;
+    }
+    @media #{$md} {
+        font-size: 56px;
+    }
+    @media #{$xs} {
+        font-size: 38px;
+    }
+    @media #{$sm} {
+        font-size: 50px;
+    }
+}
+.tp-section-title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: var(--tp-common-black);
+    & span{
+        font-weight: 700;
+        font-size: 70px;
+        letter-spacing: -0.03em;
+        color: var(--tp-common-black);
+        @media #{$lg}{    
+            font-size: 60px;
+        }
+        @media #{$md}{    
+            font-size: 50px;
+        }
+        @media #{$xs}{    
+            font-size: 45px;
+        }
+    }
+    @media #{$lg}{    
+        font-size: 50px;
+    }
+    @media #{$md}{    
+        font-size: 40px;
+    }
+    @media #{$xs}{    
+        font-size: 35px;
+    }
+}
+.tp-section-title-sm{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--tp-common-black);
+    & span{
+        font-weight: 700;
+        font-size: 60px;
+        letter-spacing: -0.01em;
+        color: var(--tp-common-black);
+        letter-spacing: -0.03em;
+        color: #000229;
+        @media #{$xs}{    
+            font-size: 40px;
+        }
+    }
+    @media #{$lg}{    
+        font-size: 50px;
+    }
+    @media #{$xs}{    
+        font-size: 28px;
+    }
+}
+
+.tp-section-subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4260FF;
+}

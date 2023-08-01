@@ -1,0 +1,106 @@
+@use '../utils' as *;
+
+
+.testimonial{
+    &__rating-logo {
+        & img {
+            @media #{$xs}{    
+               padding-bottom: 40px;
+            }
+        }
+        @media #{$xs}{    
+            flex-wrap: wrap;
+        }
+    }
+    &__item{
+        background: #FFFFFF;
+        box-shadow: 0px 6px 14px rgba(0, 2, 41, 0.08);
+        border-radius: 20px;
+        display: inline-block;
+        padding: 50px 60px;
+        padding-right: 45px;
+        @media #{$lg}{  
+            padding: 50px 20px;
+            padding-right: 45px; 
+        }
+        @media #{$xs}{  
+            padding: 50px 20px;
+            padding-right: 20px; 
+        }
+    }
+    &__icon{
+        margin-right: 20px;
+    }
+    &__quote{
+        margin-bottom: 22px;
+    }
+    &__ratting{
+        margin-bottom: 10px;
+    }
+    &__text{
+        & p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #03041C;
+            padding-bottom: 10px;
+            @media #{$xs}{  
+                font-size: 16px;
+            }
+        }
+    }
+    &__author-info{
+        & h4{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 22px;
+            letter-spacing: -0.04em;
+            color: #03041C;
+            margin-bottom: 0; 
+        }
+        & span{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #525258;
+        }
+    }
+
+}
+.testimonial{
+    &__rating-logo{
+        & .tp-section-title{
+            @media #{$xs}{  
+                text-align: center;
+                & br{
+                    display: none;
+                }
+            }          
+            @media #{$sm}{  
+                text-align: start;
+                & br{
+                    display:block;
+                }
+            }          
+        }
+    }
+}
+.testimonial-slider-active{
+    padding: 30px 0;
+    margin: 0px -220px;
+    @media #{$lg,$md,$xs}{  
+        margin: 0;  
+    }
+}
+
+.testimonial-slider-active .tp-scrollbar {
+	background: rgba(1, 16, 61, 0.16);
+	height: 2px;
+	width: 800px;
+	position: relative;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: auto;
+    margin-top: 50px;
+}

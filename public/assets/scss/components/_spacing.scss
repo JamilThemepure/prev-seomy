@@ -1,0 +1,35 @@
+@use '../utils' as *;
+
+/*--
+    - Spacing
+-----------------------------------------*/
+
+.box-plr-115{
+    padding-left: 80px;
+    padding-right: 70px;
+
+    @media #{$xxxl}{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    @media #{$xxl}{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    @media #{$xl}{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media #{$lg}{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media #{$md, $sm, $xs}{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
