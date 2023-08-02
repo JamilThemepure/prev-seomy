@@ -46,7 +46,7 @@ const IntegrationToolsArea = () => {
                                 </div>
                                 <div className="integration__content">
                                     <h4>Bootstrap</h4>
-                                    <p>Bootstrap, the world's most popular css framework.</p>
+                                    <p>Bootstrap, the {"world's"} most popular css framework.</p>
                                 </div>
                                 <div className="integration__counter-wrap">
                                     <div className="integration__counter-count"></div>

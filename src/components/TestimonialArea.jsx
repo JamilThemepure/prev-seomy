@@ -146,7 +146,7 @@ const TestimonialArea = () => {
                                        </span>
                                     </div>
                                     <div className="testimonial__text">
-                                       <p>The support staff answered my questions and helped me work through issues. They tended to answer very consistently within 24 hours. They gave suggestions and when suggestions didn't work they asked for logins and detected my mistake. Great support. Thanks guys. </p>
+                                       <p>The support staff answered my questions and helped me work through issues. They tended to answer very consistently within 24 hours. They gave suggestions and when suggestions {"didn't"} work they asked for logins and detected my mistake. Great support. Thanks guys. </p>
                                     </div>
                                     <div className="testimonial__author-info">
                                        <h4>jmg5041</h4>
@@ -348,7 +348,7 @@ const TestimonialArea = () => {
                                        </span>
                                     </div>
                                     <div className="testimonial__text">
-                                       <p>The support staff answered my questions and helped me work through issues. They tended to answer very consistently within 24 hours. They gave suggestions and when suggestions didn't work they asked for logins and detected my mistake. Great support. Thanks guys. </p>
+                                       <p>The support staff answered my questions and helped me work through issues. They tended to answer very consistently within 24 hours. They gave suggestions and when suggestions {"didn't"} work they asked for logins and detected my mistake. Great support. Thanks guys. </p>
                                     </div>
                                     <div className="testimonial__author-info">
                                        <h4>jmg5041</h4>
