@@ -29,7 +29,7 @@ const MainHome = () => {
 				<FaqArea />
 			</main>
 			<Footer />
-		</Wrapper>
+		</Wrapper>  
 	);
 };
 
