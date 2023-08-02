@@ -27,7 +27,7 @@ const FaqArea = () => {
                                  <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                       The SEOMY built with modern technology like HTML5, Bootstrap, SASS etc. You can use it to build your dream website. So, {"do not"} waste your valuable time. Just <a target="_blank" href="#">click here</a> and buy the template.
+                                       The SEOMY built with modern technology like React Next js, Bootstrap, SASS etc. You can use it to build your dream website. So, {"do not"} waste your valuable time. Just <a target="_blank" href="#">click here</a> and buy the template.
                                     </div>
                                  </div>
                               </div>

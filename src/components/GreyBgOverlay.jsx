@@ -52,7 +52,7 @@ const GreyBgOverlay = () => {
                                             <path opacity="0.4" d="M8.2002 20.2002H18.4002" stroke="#4260FF" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                     </span>
-                                    <span>20 HTML Valid Files</span>
+                                    <span>30+ js Files</span>
                                 </div>
                             </div>
                             <div className="tp-feature__wrap mb-20">

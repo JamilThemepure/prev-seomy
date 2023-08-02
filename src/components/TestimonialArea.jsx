@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Scrollbar } from 'swiper/modules';
 import Image from 'next/image';
 
+import testimonial_img_1 from "../../public/assets/img/testimonial/testimonial-icon.png" ;
+import ratting_img from "../../public/assets/img/testimonial/rating-img.png" ;
 
 
 const setting = {
@@ -46,7 +48,7 @@ const TestimonialArea = () => {
                <div className="row">
                   <div className="col-12 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                   <div className="testimonial__rating-logo mb-25 d-flex align-items-center justify-content-center">
-                     <img className="mr-30" src="assets/img/testimonial/rating-img.png" alt="" />
+                     <Image className="mr-30" src={ratting_img} alt="" />
                      <h4 className="tp-section-title">12k+ <br />
                         Clients <span>Reviews</span></h4>
                   </div>
@@ -56,7 +58,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">
@@ -106,7 +108,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">
@@ -156,7 +158,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">
@@ -206,7 +208,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">
@@ -258,7 +260,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">
@@ -308,7 +310,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">
@@ -358,7 +360,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">
@@ -408,7 +410,7 @@ const TestimonialArea = () => {
                            <SwiperSlide className="swiper-slide">
                               <div className="testimonial__item d-flex align-items-center">
                                  <div className="testimonial__icon d-none d-sm-block">
-                                    <img src="assets/img/testimonial/testimonial-icon.png" alt="" />
+                                    <Image src={testimonial_img_1} alt="" />
                                  </div>
                                  <div className="testimonial__content">
                                     <div className="testimonial__quote">

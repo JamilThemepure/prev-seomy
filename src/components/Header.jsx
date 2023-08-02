@@ -4,6 +4,9 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
+import logoImg from "../../public/assets/img/logo/logo.svg";
+
+
 const Header = () => {
 	const { sticky } = useSticky()
 	return (
@@ -15,7 +18,7 @@ const Header = () => {
 						<div className="row align-items-center">
 							<div className="col-xxl-3 col-xl-3 col-lg-6 col-md-4 col-6">
 								<div className="tp-heade__logo-box">
-									<Link href="/"><img src="assets/img/logo/logo.svg" alt="" /></Link>
+									<Link href="/"><Image src={logoImg} alt="" /></Link>
 								</div>
 							</div>
 							<div className="col-xxl-6 col-xl-6 col-lg-6 d-none d-xl-block">
