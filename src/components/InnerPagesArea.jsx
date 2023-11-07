@@ -77,56 +77,56 @@ const InnerPagesArea = () => {
                <Swiper {...setting} className="swiper-container inner-page__slider-active"> 
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/about" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/about" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-1.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/service" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/service" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-2.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/blog-grid" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/blog-grid" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-3.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/blog-masonry" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/blog-masonry" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-4.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/blog-list" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/blog-list" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-5.png)`}}></div>
                            </Link> 
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/blog-details" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/blog-details" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-6.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/blog-details-2" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/blog-details-2" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-7.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/pricing" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/pricing" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-8.png)`}}></div>
                            </Link>
                         </div>
@@ -135,35 +135,35 @@ const InnerPagesArea = () => {
                <Swiper {...setting_2} className="swiper-container inner-page__slider-active-2"> 
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/keyword-search" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/keyword-search" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-9.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/social-services" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/social-services" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-10.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/marketing-analysis" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/marketing-analysis" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-11.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/media-markiting" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/media-markiting" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-12.png)`}}></div>
                            </Link>
                         </div>
                      </SwiperSlide>
                      <SwiperSlide className="swiper-slide">
                         <div className="home-page__thumb-wrap mb-40 text-center">
-                           <Link href="https://seomy-nextjs.vercel.app/seo-audit" target="_blank">
+                           <Link href="https://seomy-nextjs.netlify.app/seo-audit" target="_blank">
                               <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/inner-page/inner-13.png)`}}></div>
                            </Link> 
                         </div>

@@ -158,45 +158,45 @@ const GreyBgOverlay = () => {
                             </div>
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="home-page__thumb-wrap mb-40 text-center">
-                                    <Link href="https://seomy-nextjs.vercel.app/home-2" target="_blank">
+                                    <Link href="https://seomy-nextjs.netlify.app/home-2" target="_blank">
                                         <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/demo-page/home-page-2.jpg)`}}></div>
                                     </Link>
                                     <div className="home-page__thumb-title">
                                         <span>Business</span>
-                                        <h4><Link href="https://seomy-nextjs.vercel.app/home-2" target="_blank">SEO Analysis</Link></h4>
+                                        <h4><Link href="https://seomy-nextjs.netlify.app/home-2" target="_blank">SEO Analysis</Link></h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="home-page__thumb-wrap mb-40 text-center">
-                                    <Link href="https://seomy-nextjs.vercel.app/home-3" target="_blank">
+                                    <Link href="https://seomy-nextjs.netlify.app/home-3" target="_blank">
                                         <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/demo-page/home-page-3.jpg)`}}></div>
                                     </Link>
                                     <div className="home-page__thumb-title">
                                         <span>Business</span>
-                                        <h4><Link href="https://seomy-nextjs.vercel.app/home-3" target="_blank">Business SEO</Link></h4>
+                                        <h4><Link href="https://seomy-nextjs.netlify.app/home-3" target="_blank">Business SEO</Link></h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="home-page__thumb-wrap mb-40 text-center">
-                                    <Link href="https://seomy-nextjs.vercel.app/home-4" target="_blank">
+                                    <Link href="https://seomy-nextjs.netlify.app/home-4" target="_blank">
                                         <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/demo-page/home-page-4.jpg)`}}></div>
                                     </Link>
                                     <div className="home-page__thumb-title">
                                         <span>Business</span>
-                                        <h4><Link href="https://seomy-nextjs.vercel.app/home-4" target="_blank">SEO Agency</Link></h4>
+                                        <h4><Link href="https://seomy-nextjs.netlify.app/home-4" target="_blank">SEO Agency</Link></h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="home-page__thumb-wrap mb-40 text-center">
-                                    <Link href="https://seomy-nextjs.vercel.app/home-5" target="_blank">
+                                    <Link href="https://seomy-nextjs.netlify.app/home-5" target="_blank">
                                         <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/demo-page/home-page-5.jpg)`}}></div>
                                     </Link>
                                     <div className="home-page__thumb-title">
                                         <span>Business</span>
-                                        <h4><Link href="https://seomy-nextjs.vercel.app/home-5" target="_blank">SEO Campaign</Link></h4>
+                                        <h4><Link href="https://seomy-nextjs.netlify.app/home-5" target="_blank">SEO Campaign</Link></h4>
                                     </div>
                                 </div>
                             </div>
