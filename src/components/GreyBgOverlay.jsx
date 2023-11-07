@@ -147,12 +147,12 @@ const GreyBgOverlay = () => {
                         <div className="row">
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="home-page__thumb-wrap mb-40 text-center">
-                                    <Link href="https://seomy-nextjs.vercel.app" target="_blank">
+                                    <Link href="https://seomy-nextjs.netlify.app" target="_blank">
                                         <div className="home-page__thumb" style={{backgroundImage: `url(/assets/img/demo-page/home-page-1.jpg)`}}></div>
                                     </Link>
                                     <div className="home-page__thumb-title">
                                         <span>Business</span>
-                                        <h4><Link href="https://seomy-nextjs.vercel.app" target="_blank">SEO Marketing</Link></h4>
+                                        <h4><Link href="https://seomy-nextjs.netlify.app" target="_blank">SEO Marketing</Link></h4>
                                     </div>
                                 </div>
                             </div>
